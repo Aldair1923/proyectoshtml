@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>::Formulario Aldair Aguirre</title>
+</head>
+<body>
+	<h2>Formularios</h2>
+	<p>Son elementos que permiten la interaccion  de un usuario con un pagina web. Se componen de campos que permiten la insercion de datos</p>
+
+	<hr>
+
+	<form>
+		<label>Nombre:</label>
+		<input type="text" name="Nombre" placeholder="Escribe tu nombre completo" required>
+		<br>
+
+
+		<label>Correo Electronico</label>
+		<input type="email" name="email" placeholder="Ingresa tu Correo" required>
+		<br>
+
+		<label>Contraseña:</label>	
+		<input type="password" name="pass" placeholder="Tu contraseña no debe de ser mas de 8 caracteres"maxlength="8" size="40">
+		<br>
+
+		<label>Fecha de nacimiento</label>
+		<input type="date" name="fnac" required>
+		<br>
+
+		<label>Pais:</label>
+		<select name="pais">
+			<option id="pais">Perú</option>
+			<option id="pais">Colombia</option>
+			<option id="pais">Argentina</option>
+			<option id="pais">Venezuela</option>
+			<option id="pais">Ecuador</option>
+			<option id="pais">Bolivia</option>
+	    </select>
+	    <br>
+
+	    <label>Sexo:</label>
+	    Mujer<input type="radio" name="sexo">
+	    Varon<input type="radio" name="sexo">
+	    Prefiero no decir <input type="radio" name="sexo">
+	    <br>
+
+	    <label>Selecciona tus pasatiempos</label>
+	    <input type="checkbox" name="pasatiempos"> Leer
+	    <br>
+	    <input type="checkbox" name="pasatiempos"> Dibujar
+	    <br>
+	    <input type="checkbox" name="pasatiempos"> Tocar la Guitarra
+	    
+	    <br>
+	    <br>
+	    <label>Queremos saber tu opinion</label><br>
+	    <textarea required placeholder="Escribe tu opinion"></textarea>
+
+
+		<br>
+		<input type="submit" name="Boton" value="Registrate">	
+
+	</form>
+
+</body>
+</html>
